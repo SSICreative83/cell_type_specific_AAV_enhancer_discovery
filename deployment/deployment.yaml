@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: scrna-omics-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: scrna-omics
+  template:
+    metadata:
+      labels:
+        app: scrna-omics
+    spec:
+      containers:
+      - name: scrna-omics-container
+        image: your-docker-image:latest
+        ports:
+        - containerPort: 80
