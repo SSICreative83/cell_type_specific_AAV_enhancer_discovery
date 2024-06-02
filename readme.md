@@ -1,5 +1,3 @@
-# cell_type_specific_AAV_enhancer_discovery
-
 # Cell-Type Specific AAV Enhancer Discovery
 
 This repository contains a workflow for discovering cell-type specific AAV enhancers using integrated scRNA and scATAC data with machine learning algorithms. The workflow is designed to be deployed on cloud platforms including GCP, AWS, and Azure.
